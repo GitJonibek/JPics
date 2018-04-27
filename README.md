@@ -6,4 +6,8 @@ JPics - Image loading library.
     the sources cancels the load, it will not affect the remaining requests.
  -- An image load can be cancelled by users' need.
  
- 
+How to integrate into your project?
+- Jsut copy and paste the jpics folder and make sure you changed the package name with your package.
+
+Example: 
+ JPics.with( context ).setUrl( Url ).into( imageView ); - done!
