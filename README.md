@@ -1,6 +1,6 @@
 
-
 [![](https://www.jitpack.io/v/GitJonibek/JPics.svg)](https://www.jitpack.io/#GitJonibek/JPics)
+
 # JPics
 JPics - Image loading library.
  -- Easy to integrate with other android projects/apps.
@@ -10,7 +10,19 @@ JPics - Image loading library.
  -- An image load can be cancelled by users' need.
  
 How to integrate into your project?
-- Jsut copy and paste the jpics folder and make sure you changed the package name with your package.
-
+follow the steps:--------
+  allprojects {
+   repositories {
+    ...
+    maven { url 'https://www.jitpack.io' }
+   }
+  }
+  dependencies {
+          implementation 'com.github.GitJonibek:JPics:-SNAPSHOT'
+  }
+  
 Example: 
  JPics.with( context ).setUrl( Url ).into( imageView ); - done!
+
+setting the cache configurably:
+ JPics.Config.setCacheCapacity(--size of cache--);
