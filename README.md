@@ -1,3 +1,6 @@
+
+
+[![](https://www.jitpack.io/v/GitJonibek/JPics.svg)](https://www.jitpack.io/#GitJonibek/JPics)
 # JPics
 JPics - Image loading library.
  -- Easy to integrate with other android projects/apps.
